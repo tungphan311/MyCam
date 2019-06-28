@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Chính sách chung"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <TextView
+            style="@style/txt_chinhsach"
+            android:text="1. Quy chế quản lý hoạt động ứng dụng" />
+
+        <TextView
+            style="@style/txt_chinhsach"
+            android:text="2. Chính sách bảo mật" />
+
+        <TextView
+            style="@style/txt_chinhsach"
+            android:text="3. Quyền hạn của khách hàng" />
+
+        <TextView
+            style="@style/txt_chinhsach"
+            android:text="4. Chính sách vận chuyển" />
+
+        <TextView
+            style="@style/txt_chinhsach"
+            android:text="5. Chính sách đổi và trả hàng" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="Chính sách chung"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <TextView
+            style="@style/txt_chinhsach"
+            android:text="1. Điều khoản dịch vụ" />
+
+        <TextView
+            style="@style/txt_chinhsach"
+            android:text="2. Đặt hàng và xác nhận đặt hàng" />
+
+        <TextView
+            style="@style/txt_chinhsach"
+            android:text="3. Hình thức thanh toán" />
+
+        <TextView
+            style="@style/txt_chinhsach"
+            android:text="4. Chương trinhg khuyến mãi" />
+
+        <TextView
+            style="@style/txt_chinhsach"
+            android:text="5. Khu vực giao hàng" />
+        <TextView
+            style="@style/txt_chinhsach"
+            android:text="6. Giá cả" />
+
+        <TextView
+            android:id="@+id/btn_ok"
+            android:layout_marginTop="16dp"
+            style="@style/btn"
+            android:text="OK" />
+    </LinearLayout>
+</ScrollView>

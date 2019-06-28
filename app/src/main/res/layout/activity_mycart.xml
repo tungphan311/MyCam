@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MycartActivity"
+    android:background="#c2c2c2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/lndonhang1"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:background="#ffe"
+        android:layout_height="wrap_content">
+    <TextView
+        android:background="#ffe"
+        android:textColor="@color/color_orange"
+        android:textStyle="bold"
+        android:text="@string/tv_mycart"
+        android:textSize="35sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/lndonhang"
+        android:layout_below="@id/lndonhang1"
+        android:layout_marginTop="10dp"
+        android:layout_above="@id/ln3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:background="#ffe"
+            android:id="@+id/mylistcart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/thongbao_mycart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bạn không có đơn hàng nào"
+            android:textSize="20sp"
+            android:gravity="center"/>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ln3"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+
+            android:id="@+id/btn_mycart_trove"
+            android:textSize="20sp"
+            android:text="@string/button_trove"
+            android:background="@color/color_orange"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+    </LinearLayout>
+</RelativeLayout>
